@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "infinite_unknowns:blocks/iron_frame",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "infinite_unknowns:iron_frame"
+        }
+      ]
+    }
+  ]
+}

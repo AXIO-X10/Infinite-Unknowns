@@ -1,0 +1,50 @@
+{
+  "_fv": 69,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_infinite_unknowns_010dev1",
+          "text": {
+            "fixedValue": "Infinite Unknowns 0.1.0-dev.1"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": -3,
+          "y": -1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_development_version_is_enabl",
+          "text": {
+            "fixedValue": "The development version is enabled, and there is indefiniteness!"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": -3,
+          "y": 8
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
