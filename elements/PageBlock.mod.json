@@ -4,7 +4,7 @@
   "definition": {
     "name": "Infinite Unknowns - Blocks",
     "icon": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:IronFrame"
     },
     "showSearch": false
   }

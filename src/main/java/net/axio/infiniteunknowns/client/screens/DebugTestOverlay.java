@@ -14,6 +14,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.Minecraft;
 
+import net.axio.infiniteunknowns.procedures.DevSHowCheckProcedure;
+
 @EventBusSubscriber({Dist.CLIENT})
 public class DebugTestOverlay {
 	@SubscribeEvent(priority = EventPriority.NORMAL)
@@ -31,7 +33,7 @@ public class DebugTestOverlay {
 			y = entity.getY();
 			z = entity.getZ();
 		}
-		if (true) {
+		if (DevSHowCheckProcedure.execute(world)) {
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.infinite_unknowns.debug_test.label_infinite_unknowns_010dev1"), w / 2 + -216, h / 2 + -121, -65536, false);
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.infinite_unknowns.debug_test.label_the_development_version_is_enabl"), w / 2 + -216, h / 2 + -112, -65536, false);
 		}

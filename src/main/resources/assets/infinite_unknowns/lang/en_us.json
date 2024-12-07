@@ -1,8 +1,16 @@
 {
+  "item_group.infinite_unknowns.page_miscellaneous": "Infinite Unknowns - Miscellaneous",
+  "item.infinite_unknowns.iron_plate": "Iron Plate",
+  "item.infinite_unknowns.crude_steel_ingots": "Crude Steel Ingots",
+  "item.infinite_unknowns.iron_bar": "Iron Bar",
+  "item_group.infinite_unknowns.page_material": "Infinite Unknowns - Material",
+  "item_group.infinite_unknowns.page_tools": "Infinite Unknowns - Tools",
+  "command.devshow.done": "[Infinite Unknowns]Done!",
   "block.infinite_unknowns.iron_frame": "Iron Frame",
   "item.infinite_unknowns.flint_machining_hammer": "Flint Machining Hammer",
+  "item.infinite_unknowns.erlenmeyer_flask": "Erlenmeyer Flask",
   "item_group.infinite_unknowns.page_block": "Infinite Unknowns - Blocks",
-  "item_group.infinite_unknowns.page_tools": "Infinite Unknowns - Tools",
-  "gui.infinite_unknowns.debug_test.label_infinite_unknowns_010dev1": "Infinite Unknowns 0.1.0-dev.1",
+  "item.infinite_unknowns.iron_machining_hammer": "Iron Machining Hammer",
+  "gui.infinite_unknowns.debug_test.label_infinite_unknowns_010dev1": "Infinite Unknowns 0.1.0-dev.3",
   "gui.infinite_unknowns.debug_test.label_the_development_version_is_enabl": "The development version is enabled, and there is indefiniteness!"
 }

@@ -9,7 +9,7 @@
         "data": {
           "name": "label_infinite_unknowns_010dev1",
           "text": {
-            "fixedValue": "Infinite Unknowns 0.1.0-dev.1"
+            "fixedValue": "Infinite Unknowns 0.1.0-dev.3"
           },
           "color": {
             "value": -65536,
@@ -39,6 +39,9 @@
     ],
     "baseTexture": "",
     "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "DevSHowCheck"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

@@ -12,11 +12,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:PageTools"
-      }
-    ],
+    "creativeTabs": [],
     "efficiency": 1.5,
     "attackSpeed": 1.1,
     "enchantability": 1,

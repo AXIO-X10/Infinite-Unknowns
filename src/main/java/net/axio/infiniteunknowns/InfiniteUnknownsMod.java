@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.axio.infiniteunknowns.network.InfiniteUnknownsModVariables;
 import net.axio.infiniteunknowns.init.InfiniteUnknownsModTabs;
 import net.axio.infiniteunknowns.init.InfiniteUnknownsModItems;
 import net.axio.infiniteunknowns.init.InfiniteUnknownsModBlocks;
@@ -45,6 +46,7 @@ public class InfiniteUnknownsMod {
 		InfiniteUnknownsModItems.REGISTRY.register(modEventBus);
 
 		InfiniteUnknownsModTabs.REGISTRY.register(modEventBus);
+		InfiniteUnknownsModVariables.ATTACHMENT_TYPES.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

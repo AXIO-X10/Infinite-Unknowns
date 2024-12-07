@@ -4,7 +4,7 @@
   "definition": {
     "name": "Infinite Unknowns - Tools",
     "icon": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:FlintMachiningHammer"
     },
     "showSearch": false
   }
